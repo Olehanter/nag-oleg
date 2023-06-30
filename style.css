@@ -1,6 +1,7 @@
 
 ul {
     margin-block-start: 0;
+    margin-block-start: 0;
     margin-block-end: 0;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
@@ -18,7 +19,6 @@ ul {
 .page{
     max-width: 1280px;
     min-width: 320px;
-    /* border: 30px solid yellow; */
 }
 
 .heder{
@@ -27,7 +27,6 @@ ul {
     margin-top: 20px;
     margin-bottom: 20px;
     padding-top: 20px;
-    /* border: 10px solid red; */
 }
 
 .header_logo {
@@ -61,8 +60,6 @@ ul {
     line-height: 100px;
     letter-spacing: 0em;
     text-align: center;
-
-
 }
 
 .lead-subtitle {
@@ -90,7 +87,6 @@ ul {
 .intro {
     width: 690px;
     margin: 92px auto 0px 148px;
-
 }
 
 .intro-title {
@@ -123,7 +119,6 @@ ul {
     line-height: 18px;
     letter-spacing: 0em;
     text-align: left;
-    color: white;
-    
+    color: white;  
 }
 
