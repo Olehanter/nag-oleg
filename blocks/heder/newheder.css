@@ -1,7 +1,7 @@
 .heder {
   display: flex;
   justify-content: space-between;
-  width: 976px;
+  width: 1184px;
   color: white;
 }
 .heder .heder__logo {
