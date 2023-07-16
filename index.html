@@ -36,11 +36,11 @@
                     в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые
                     интересные места, достойные вашего отпуска. </p>
                 <ul class="intro__list">
-                    <li class="intro__list-item"> Часовых поясов 11 </li>
-                    <li class="intro__list-item"> Объектов природного наследия ЮНЕСКО 12</li>
-                    <li class="intro__list-item"> Объектов культурного наследия ЮНЕСКО 16</li>
-                    <li class="intro__list-item"> Природных заповедников 105</li>
-                    <li class="intro__list-item intro__list-item_color"> Аэропортов 241</li>
+                    <li class="intro__list-item" id="first"> </li>
+                    <li class="intro__list-item" id="second"></li>
+                    <li class="intro__list-item" id="third"></li>
+                    <li class="intro__list-item" id="fourth"> </li>
+                    <li class="intro__list-item  intro__list-item_color" id='fifth'></li>
                 </ul>
             </section>
             <section class="photo-grid">
@@ -183,7 +183,7 @@
             </section>
         </main>
         <footer class="footer">
-            <li class="footer__link" href=" https://yandex.ru/maps"> Карты </li>
+            <li class="footer__link" href=" https://yandex.ru/maps" target="_blank"> Карты </li>
             <li class="footer__link" href=" https://yandex.ru/pogoda"> Погода </li>
             <li class="footer__link" href=" https://rasp.yandex.ru"> Расписание </li>
             <li class="footer__link" href=" https://calendar.yandex.ru"> Календарь </li>
@@ -193,6 +193,17 @@
             <p class="footer__copyright"> © 2023. Nag-oleg </p>
         </footer>
     </div>
+    
+    <script>
+        // alert ('Hello world')
+        console.log (7+6**2)
+        let statistic =['Часовых поясов 11', 'Объектов природного наследия ЮНЕСКО 12', 'Объектов культурного наследия ЮНЕСКО 16', 'Природных заповедников 105',  'Аэропортов 241'] ;
+        document.getElementById('first').innerHTML=statistic[0];
+        document.getElementById('second').innerHTML=statistic[1];
+        document.getElementById('third').innerHTML=statistic[2];
+        document.getElementById('fourth').innerHTML=statistic[3];
+        document.getElementById('fifth').innerHTML=statistic[4];
+    </script>
 </body>
 
 </html>

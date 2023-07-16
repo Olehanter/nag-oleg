@@ -1,125 +1,28 @@
-
-/* ul {
-    margin-block-start: 0;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 0px;
-} */
-
-
-
-/* .body {
-    background-color: #2A2C2F;
-    width: 100px;
-    height: 100px;
-} */
-
-/* .page{
-    max-width: 1280px;
-    min-width: 320px;
-    margin: 0 auto;
-} */
-
-/* .heder{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-top: 20px;
-} */
-
-/* .heder_logo {
-    background-image: url("./img/logo.svg");
-    width: 176px;
-    height: 52px;
-    background-size: 172px 56px;
-} */
-
-/* .heder_lang {
-    color: white;
-} */
-/* 
-.lead {
-    width: 984px;
-    margin: 0 auto;
-} */
-/* 
-.lead-title,
-.lead-subtitle,
-.lead-caption {
-    color: white;
-    margin-block-start: 0;
-    margin-block-end: 0;
-} */
-
-
-/* .lead-title {
-    font-family: Inter;
-    font-size: 96px;
-    font-weight: 900;
-    line-height: 100px;
-    letter-spacing: 0em;
-    text-align: center;
-} */
-/* 
-.lead-subtitle {
-    font-family: Inter;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 36px;
-    letter-spacing: 0em;
-    text-align: center;
-    padding-top: 32px;
-    padding-bottom: 64px;
-} */
-
-/* .lead-caption {
-    font-family: Inter;
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 1.5px;
-    text-align: left;
-    padding-top: 8px;
-    padding-bottom: 64px;
-} */
-
-/* .intro {
-    width: 690px;
-    margin: 92px auto 0px 148px;
-} */
-
-/* .intro-title {
-    font-family: Inter;
-    font-size: 54px;
-    font-weight: 900;
-    line-height: 58px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: white;
-} */
-/* .intro-text {
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: white;
-} */
-
-/* .intro-list {
-    list-style-type: none;
-} */
-
-/* .intro-list-item {
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: white;  
-} */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url(./blocks/body/body.css);
+@import url(./blocks/conteiner/conteiner.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__logo/header__logo.css);
+@import url(./blocks/header/__lang/header__lang.css);
+@import url(./blocks/lead/lead.css);
+@import url(./blocks/lead/__title/lead__title.css);
+@import url(./blocks/lead/__subtitle/lead__subtitle.css);
+@import url(./blocks/lead/__pic/lead__pic.css);
+@import url(./blocks/lead/__picmap/lead__picmap.css);
+@import url(./blocks/lead/__caption/lead__caption.css);
+@import url(./blocks/intro/intro.css);
+@import url(./blocks/intro/__title/intro__title.css);
+@import url(./blocks/intro/__text/intro__text.css);
+@import url(./blocks/intro/__list/intro__list.css);
+@import url(./blocks/photo-grid/photo-grid.css);
+@import url(./blocks/plases/plases.css);
+@import url(./blocks/plase/plase.css);
+@import url(./blocks/plase/__pic/plase__pic.css);
+@import url(./blocks/plase/__column/plase__column.css);
+@import url(./blocks/cover/cover.css);
+@import url(./blocks/cover-box/cover-box.css);
+@import url(./blocks/cover-box/__text/cover-box__text.css);
+@import url(./blocks/cover-box/__pic/cover-box__pic.css);
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__copyright/footer__copiright.css);
+@import url(./blocks/footer/__link/footer__link.css); */
